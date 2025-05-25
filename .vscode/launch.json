@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+
+    {
+      "type": "java",
+      "name": "▶ macOS Apple Silicon (aarch64)",
+      "request": "launch",
+      "mainClass": "Sketch",
+      "vmArgs": "-Djava.library.path=lib/macos-aarch64 -cp .:lib/core.jar:lib/jogl-all.jar:lib/gluegen-rt.jar"
+    },
+    {
+      "type": "java",
+      "name": "▶ macOS Intel (x86_64)",
+      "request": "launch",
+      "mainClass": "Sketch",
+      "vmArgs": "-Djava.library.path=lib/macos-x86_64 -cp .:lib/core.jar:lib/jogl-all.jar:lib/gluegen-rt.jar"
+    },
+    {
+      "type": "java",
+      "name": "▶ Linux (amd64)",
+      "request": "launch",
+      "mainClass": "Sketch",
+      "vmArgs": "-Djava.library.path=lib/linux-amd64 -cp .:lib/core.jar:lib/jogl-all.jar:lib/gluegen-rt.jar"
+    },
+    {
+      "type": "java",
+      "name": "▶ Linux (aarch64)",
+      "request": "launch",
+      "mainClass": "Sketch",
+      "vmArgs": "-Djava.library.path=lib/linux-aarch64 -cp .:lib/core.jar:lib/jogl-all.jar:lib/gluegen-rt.jar"
+    },
+    {
+      "type": "java",
+      "name": "▶ Linux (arm)",
+      "request": "launch",
+      "mainClass": "Sketch",
+      "vmArgs": "-Djava.library.path=lib/linux-arm -cp .:lib/core.jar:lib/jogl-all.jar:lib/gluegen-rt.jar"
+    },
+    {
+      "type": "java",
+      "name": "▶ Windows (amd64)",
+      "request": "launch",
+      "mainClass": "Sketch",
+      "vmArgs": "-Djava.library.path=lib/windows-amd64 -cp .;lib/core.jar;lib/jogl-all.jar;lib/gluegen-rt.jar"
+    }
+  ]
+}
